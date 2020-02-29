@@ -1,5 +1,7 @@
 spring:
   data:
     mongodb:
+      username: root
+      password: admin
       database: cliente
       uri: mongodb://localhost:27017/cliente?maxpoolsize=5  
