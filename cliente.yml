@@ -1,1 +1,5 @@
-
+spring:
+  data:
+    mongodb:
+      database: cliente
+      uri: mongodb://localhost:27017/cliente?maxpoolsize=5  
