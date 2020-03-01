@@ -1,5 +1,4 @@
 spring:
   data:
     mongodb:
-      database: admin
-      uri: mongodb://localhost:27017/admin?maxpoolsize=5  
+      uri: mongodb+srv://root:admin123@cluster0-v0nmk.mongodb.net/test?retryWrites=true&w=majority
